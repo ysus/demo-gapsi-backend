@@ -15,7 +15,7 @@ import static org.springframework.http.HttpStatus.OK;
 
 @RestController
 @RequestMapping(path = "/api/providers")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 public class ProviderController {
 
     private static final String USER_DELETED_SUCCESSFULLY = "User deleted successfully";

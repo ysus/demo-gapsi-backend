@@ -15,3 +15,6 @@ INSERT INTO provider (name, business_Name, address ) VALUES
   ('S Y G Editoriales', 'Arturo Sánchez y Gándara', 'conocida');
 
 
+INSERT INTO USER_PREFERENCE (username, welcome_message, version ) VALUES
+  ('jpmorales','Bienvenido Candidato 01', '0.01');
+
